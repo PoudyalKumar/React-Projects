@@ -8,7 +8,9 @@
     "build": "vite build && npm run clean",
     "lint": "eslint .",
     "preview": "vite preview",
-    "clean": "del-cli src/styles/**/*.css.map"
+    "clean": "del-cli src/styles/**/*.css.map",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bikram-sambat-js": "^1.0.2",
@@ -28,8 +30,10 @@
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
+    "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
     "rimraf": "^6.0.1",
     "vite": "^5.4.2"
-  }
+  },
+  "homepage": "https://PoudyalKumar.github.io/React-Projects/Date%20And%20Time"
 }
