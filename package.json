@@ -1,5 +1,5 @@
 {
-  "name": "Date-And-Time",
+  "name": "fitst-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "clean": "del-cli src/styles/**/*.css.map",
+    "serve": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -34,8 +35,5 @@
     "globals": "^15.9.0",
     "rimraf": "^6.0.1",
     "vite": "^5.4.2"
-  },
-  "homepage": "https://PoudyalKumar.github.io/React-Projects"
+  }
 }
-
-
