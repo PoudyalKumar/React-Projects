@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://PoudyalKumar.github.io/React-Projects/Clock",
   "scripts": {
     "dev": "concurrently \"vite\" \"sass --watch src/styles:src/styles\"",
     "build": "vite build && npm run clean",
