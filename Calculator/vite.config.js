@@ -12,7 +12,6 @@ export default defineConfig({
         // additionalData: '@import "./styles/sass/styles.scss";',
       },
       build: {
-        outDir: "dist",
         sourcemap: true,
       },
     },
