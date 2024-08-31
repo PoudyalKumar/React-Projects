@@ -10,7 +10,7 @@ const countries = [
   { name: 'Angola', code: 'AO', timezone: 'Africa/Luanda' },
   { name: 'Argentina', code: 'AR', timezone: 'America/Argentina/Buenos_Aires' },
   { name: 'Armenia', code: 'AM', timezone: 'Asia/Yerevan' },
-  { name: 'Australia', code: 'AU', timezone: 'Australia/Sydney' }, // You can add more cities like 'Australia/Perth', 'Australia/Melbourne', etc.
+  { name: 'Australia', code: 'AU', timezone: 'Australia/Sydney' }, 
   { name: 'Austria', code: 'AT', timezone: 'Europe/Vienna' },
   { name: 'Azerbaijan', code: 'AZ', timezone: 'Asia/Baku' },
   { name: 'Bahamas', code: 'BS', timezone: 'America/Nassau' },
@@ -25,19 +25,19 @@ const countries = [
   { name: 'Bolivia', code: 'BO', timezone: 'America/La_Paz' },
   { name: 'Bosnia and Herzegovina', code: 'BA', timezone: 'Europe/Sarajevo' },
   { name: 'Botswana', code: 'BW', timezone: 'Africa/Gaborone' },
-  { name: 'Brazil', code: 'BR', timezone: 'America/Sao_Paulo' }, // Add more cities like 'America/Rio_Branco', 'America/Manaus', etc.
+  { name: 'Brazil', code: 'BR', timezone: 'America/Sao_Paulo' }, 
   { name: 'Brunei', code: 'BN', timezone: 'Asia/Brunei' },
   { name: 'Bulgaria', code: 'BG', timezone: 'Europe/Sofia' },
   { name: 'Burkina Faso', code: 'BF', timezone: 'Africa/Ouagadougou' },
   { name: 'Burundi', code: 'BI', timezone: 'Africa/Bujumbura' },
   { name: 'Cambodia', code: 'KH', timezone: 'Asia/Phnom_Penh' },
   { name: 'Cameroon', code: 'CM', timezone: 'Africa/Douala' },
-  { name: 'Canada', code: 'CA', timezone: 'America/Toronto' }, // Add more cities like 'America/Vancouver', 'America/Halifax', etc.
+  { name: 'Canada', code: 'CA', timezone: 'America/Toronto' },
   { name: 'Cape Verde', code: 'CV', timezone: 'Atlantic/Cape_Verde' },
   { name: 'Central African Republic', code: 'CF', timezone: 'Africa/Bangui' },
   { name: 'Chad', code: 'TD', timezone: 'Africa/Ndjamena' },
-  { name: 'Chile', code: 'CL', timezone: 'America/Santiago' }, // Add more cities like 'Pacific/Easter'
-  { name: 'China', code: 'CN', timezone: 'Asia/Shanghai' }, // Also add 'Asia/Urumqi' if needed
+  { name: 'Chile', code: 'CL', timezone: 'America/Santiago' }, 
+  { name: 'China', code: 'CN', timezone: 'Asia/Shanghai' },
   { name: 'Colombia', code: 'CO', timezone: 'America/Bogota' },
   { name: 'Comoros', code: 'KM', timezone: 'Indian/Comoro' },
   { name: 'Congo', code: 'CG', timezone: 'Africa/Brazzaville' },
@@ -50,7 +50,7 @@ const countries = [
   { name: 'Djibouti', code: 'DJ', timezone: 'Africa/Djibouti' },
   { name: 'Dominica', code: 'DM', timezone: 'America/Dominica' },
   { name: 'Dominican Republic', code: 'DO', timezone: 'America/Santo_Domingo' },
-  { name: 'Ecuador', code: 'EC', timezone: 'America/Guayaquil' }, // Also add 'Pacific/Galapagos' if needed
+  { name: 'Ecuador', code: 'EC', timezone: 'America/Guayaquil' },
   { name: 'Egypt', code: 'EG', timezone: 'Africa/Cairo' },
   { name: 'El Salvador', code: 'SV', timezone: 'America/El_Salvador' },
   { name: 'Equatorial Guinea', code: 'GQ', timezone: 'Africa/Malabo' },
@@ -77,7 +77,7 @@ const countries = [
   { name: 'Hungary', code: 'HU', timezone: 'Europe/Budapest' },
   { name: 'Iceland', code: 'IS', timezone: 'Atlantic/Reykjavik' },
   { name: 'India', code: 'IN', timezone: 'Asia/Kolkata' },
-  { name: 'Indonesia', code: 'ID', timezone: 'Asia/Jakarta' }, // Add more like 'Asia/Pontianak', 'Asia/Makassar', 'Asia/Jayapura'
+  { name: 'Indonesia', code: 'ID', timezone: 'Asia/Jakarta' },
   { name: 'Iran', code: 'IR', timezone: 'Asia/Tehran' },
   { name: 'Iraq', code: 'IQ', timezone: 'Asia/Baghdad' },
   { name: 'Ireland', code: 'IE', timezone: 'Europe/Dublin' },
@@ -86,7 +86,7 @@ const countries = [
   { name: 'Jamaica', code: 'JM', timezone: 'America/Jamaica' },
   { name: 'Japan', code: 'JP', timezone: 'Asia/Tokyo' },
   { name: 'Jordan', code: 'JO', timezone: 'Asia/Amman' },
-  { name: 'Kazakhstan', code: 'KZ', timezone: 'Asia/Almaty' }, // Add more like 'Asia/Aqtau', 'Asia/Aqtobe'
+  { name: 'Kazakhstan', code: 'KZ', timezone: 'Asia/Almaty' },
   { name: 'Kenya', code: 'KE', timezone: 'Africa/Nairobi' },
   { name: 'Kiribati', code: 'KI', timezone: 'Pacific/Tarawa' },
   { name: 'Korea, North', code: 'KP', timezone: 'Asia/Pyongyang' },
@@ -111,11 +111,11 @@ const countries = [
   { name: 'Marshall Islands', code: 'MH', timezone: 'Pacific/Majuro' },
   { name: 'Mauritania', code: 'MR', timezone: 'Africa/Nouakchott' },
   { name: 'Mauritius', code: 'MU', timezone: 'Indian/Mauritius' },
-  { name: 'Mexico', code: 'MX', timezone: 'America/Mexico_City' }, // Add more like 'America/Tijuana', 'America/Monterrey'
+  { name: 'Mexico', code: 'MX', timezone: 'America/Mexico_City' }, 
   { name: 'Micronesia', code: 'FM', timezone: 'Pacific/Chuuk' },
   { name: 'Moldova', code: 'MD', timezone: 'Europe/Chisinau' },
   { name: 'Monaco', code: 'MC', timezone: 'Europe/Monaco' },
-  { name: 'Mongolia', code: 'MN', timezone: 'Asia/Ulaanbaatar' }, // Add more like 'Asia/Hovd', 'Asia/Choibalsan'
+  { name: 'Mongolia', code: 'MN', timezone: 'Asia/Ulaanbaatar' },
   { name: 'Montenegro', code: 'ME', timezone: 'Europe/Podgorica' },
   { name: 'Morocco', code: 'MA', timezone: 'Africa/Casablanca' },
   { name: 'Mozambique', code: 'MZ', timezone: 'Africa/Maputo' },
@@ -125,7 +125,7 @@ const countries = [
   { name: 'Nepal', code: 'NP', timezone: 'Asia/Kathmandu' },
   { name: 'Netherlands', code: 'NL', timezone: 'Europe/Amsterdam' },
   { name: 'New Caledonia', code: 'NC', timezone: 'Pacific/Noumea' },
-  { name: 'New Zealand', code: 'NZ', timezone: 'Pacific/Auckland' }, // Add more like 'Pacific/Chatham'
+  { name: 'New Zealand', code: 'NZ', timezone: 'Pacific/Auckland' }, 
   { name: 'Nicaragua', code: 'NI', timezone: 'America/Managua' },
   { name: 'Niger', code: 'NE', timezone: 'Africa/Niamey' },
   { name: 'Nigeria', code: 'NG', timezone: 'Africa/Lagos' },
@@ -143,11 +143,11 @@ const countries = [
   { name: 'Philippines', code: 'PH', timezone: 'Asia/Manila' },
   { name: 'Pitcairn', code: 'PN', timezone: 'Pacific/Pitcairn' },
   { name: 'Poland', code: 'PL', timezone: 'Europe/Warsaw' },
-  { name: 'Portugal', code: 'PT', timezone: 'Europe/Lisbon' }, // Add more like 'Atlantic/Azores'
+  { name: 'Portugal', code: 'PT', timezone: 'Europe/Lisbon' }, 
   { name: 'Puerto Rico', code: 'PR', timezone: 'America/Puerto_Rico' },
   { name: 'Qatar', code: 'QA', timezone: 'Asia/Qatar' },
   { name: 'Romania', code: 'RO', timezone: 'Europe/Bucharest' },
-  { name: 'Russia', code: 'RU', timezone: 'Europe/Moscow' }, // Add more like 'Asia/Kamchatka', 'Asia/Yekaterinburg'
+  { name: 'Russia', code: 'RU', timezone: 'Europe/Moscow' },
   { name: 'Rwanda', code: 'RW', timezone: 'Africa/Kigali' },
   { name: 'Saint Kitts and Nevis', code: 'KN', timezone: 'America/St_Kitts' },
   { name: 'Saint Lucia', code: 'LC', timezone: 'America/St_Lucia' },
@@ -168,7 +168,7 @@ const countries = [
   { name: 'Somalia', code: 'SO', timezone: 'Africa/Mogadishu' },
   { name: 'South Africa', code: 'ZA', timezone: 'Africa/Johannesburg' },
   { name: 'South Sudan', code: 'SS', timezone: 'Africa/Juba' },
-  { name: 'Spain', code: 'ES', timezone: 'Europe/Madrid' }, // Add more like 'Africa/Ceuta'
+  { name: 'Spain', code: 'ES', timezone: 'Europe/Madrid' }, 
   { name: 'Sri Lanka', code: 'LK', timezone: 'Asia/Colombo' },
   { name: 'Sudan', code: 'SD', timezone: 'Africa/Khartoum' },
   { name: 'Suriname', code: 'SR', timezone: 'America/Paramaribo' },
@@ -191,7 +191,7 @@ const countries = [
   { name: 'Ukraine', code: 'UA', timezone: 'Europe/Kiev' },
   { name: 'United Arab Emirates', code: 'AE', timezone: 'Asia/Dubai' },
   { name: 'United Kingdom', code: 'GB', timezone: 'Europe/London' },
-  { name: 'United States', code: 'US', timezone: 'America/New_York' }, // Add more like 'America/Los_Angeles', 'America/Chicago'
+  { name: 'United States', code: 'US', timezone: 'America/New_York' },
   { name: 'Uruguay', code: 'UY', timezone: 'America/Montevideo' },
   { name: 'Uzbekistan', code: 'UZ', timezone: 'Asia/Tashkent' },
   { name: 'Vanuatu', code: 'VU', timezone: 'Pacific/Efate' },
@@ -270,7 +270,7 @@ const CurrentTime = () => {
           </strong>
           <span className='date'>{bsWeekday}, {bsMonthName} {bsDay}, {bsYear}</span>
           <strong className='title'>
-            Time: <span className='time'>{time}</span> <span className='period'>{period}</span>
+           <span className='time'>{time}</span> <span className='period'>{period}</span>
           </strong>
         </>
       ) : (
@@ -280,7 +280,7 @@ const CurrentTime = () => {
           </strong>
           <span className='date'>{localTime.format('dddd, MMMM Do YYYY')}</span>
           <strong className='title'>
-            Time: <span className='time'>{time}</span> <span className='period'>{period}</span>
+            <span className='time'>{time}</span> <span className='period'>{period}</span>
           </strong>
         </>
       )}

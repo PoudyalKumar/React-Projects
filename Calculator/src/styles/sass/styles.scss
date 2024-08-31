@@ -1,0 +1,17 @@
+@import "./variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  min-width: 320px;
+  background-color: #ddd;
+}
+
+.calculator-block {
+  .holder {
+    max-width: 500px;
+  }
+
+  .btn {
+    min-width: 50px;
+  }
+}
