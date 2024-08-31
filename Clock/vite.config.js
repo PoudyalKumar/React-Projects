@@ -12,7 +12,7 @@ export default defineConfig({
         additionalData: '@import "src/styles/main.scss";',
       },
       build: {
-        sourcemap: false, // Disable source maps for CSS and JS in production
+        sourcemap: true, // Disable source maps for CSS and JS in production
       },
     },
   },
