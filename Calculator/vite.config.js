@@ -12,7 +12,8 @@ export default defineConfig({
         // additionalData: '@import "./styles/sass/styles.scss";',
       },
       build: {
-        sourcemap: true, // Disable source maps for CSS and JS in production
+        outDir: "dist",
+        sourcemap: true,
       },
     },
   },
